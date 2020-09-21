@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CameraSelection: View {
     //@Binding var selected:Bool
-    @EnvironmentObject var rootModel:RootManager
+    @StateObject var rootModel:RootManager
 
     var body: some View {
         VStack{

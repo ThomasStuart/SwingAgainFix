@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "ed88b5cceadcf180cdb96e9e8a6ba1f1"
+build_time: [1600727919, 247881000]
+inputs:
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/ContentView.swift": [1600727918, 629875199]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/SomeOtherView.swift": [1600724689, 233405160]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/Camera.swift": [1600725547, 804035870]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/PopToRootNavLinkDoubleApp.swift": [1600727226, 645425362]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/CameraSelection.swift": [1600727918, 619163400]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/RootManager.swift": [1600727310, 117450550]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/FinalView.swift": [1600725576, 273323694]
