@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
-options: "d6f4a3dad8ff17ac4084e209de383e7f"
-build_time: [1600723851, 871873000]
+options: "3fabc70a9b7cb426913d28d74c259251"
+build_time: [1600727439, 468873000]
 inputs:
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/ContentView.swift": [1600723849, 129978015]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/SomeOtherView.swift": [1600723713, 549334930]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/Camera.swift": [1600721587, 56763985]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/PopToRootNavLinkDoubleApp.swift": [1600723840, 443212943]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/CameraSelection.swift": [1600718626, 211807203]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/RootManager.swift": [1600723840, 451987592]
-  "/Users/Thomas_Stuart/Library/Mobile Documents/com~apple~CloudDocs/Desktop/XcodeProjects/PopToRootNavLinkDouble/PopToRootNavLinkDouble/FinalView.swift": [1600722270, 991416143]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/ContentView.swift": [1600727437, 399615521]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/SomeOtherView.swift": [1600724689, 233405160]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/Camera.swift": [1600725547, 804035870]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/PopToRootNavLinkDoubleApp.swift": [1600727226, 645425362]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/CameraSelection.swift": [1600727416, 732826673]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/RootManager.swift": [1600727310, 117450550]
+  "/Users/Thomas_Stuart/Desktop/PopToRootNavLinkDouble/PopToRootNavLinkDouble/FinalView.swift": [1600725576, 273323694]

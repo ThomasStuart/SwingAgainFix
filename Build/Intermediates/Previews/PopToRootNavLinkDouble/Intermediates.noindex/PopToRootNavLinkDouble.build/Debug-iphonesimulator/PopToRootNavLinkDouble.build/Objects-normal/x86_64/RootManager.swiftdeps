@@ -7,68 +7,53 @@ provides-member:
 - ["22PopToRootNavLinkDouble0C7ManagerC", ""]
 provides-dynamic-lookup:
 - "$isPopToRootActive"
-- "$userCancelled"
+- "SwingAgain"
 - "_isPopToRootActive"
-- "_userCancelled"
-- "cancel"
 - "isPopToRootActive"
-- "resetCancel"
-- "swingAgain"
-- "userCancelled"
+- "openCamera"
 depends-top-level:
 - "AssignmentPrecedence"
 - "BooleanLiteralType"
 - "ObservableObject"
-- "Published"
 - "RootManager"
-- !private "StringLiteralType"
-- !private "print"
+- "State"
 depends-member:
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
 - ["7Combine16ObservableObjectP", "Failure"]
 - ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
-- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", "State"]
+- !private ["7Combine16ObservableObjectP", "SwingAgain"]
 - ["7Combine16ObservableObjectP", ""]
 - ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
-- !private ["7Combine16ObservableObjectP", "_isPopToRootActive"]
-- !private ["7Combine16ObservableObjectP", "_userCancelled"]
-- !private ["7Combine16ObservableObjectP", "cancel"]
 - !private ["7Combine16ObservableObjectP", "isPopToRootActive"]
 - ["7Combine16ObservableObjectP", "objectWillChange"]
-- !private ["7Combine16ObservableObjectP", "print"]
-- !private ["7Combine16ObservableObjectP", "resetCancel"]
-- !private ["7Combine16ObservableObjectP", "swingAgain"]
-- !private ["7Combine16ObservableObjectP", "userCancelled"]
-- ["7Combine9PublishedV", "init"]
-- ["7Combine9PublishedV", "projectedValue"]
-- ["7Combine9PublishedV", "subscript"]
-- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine16ObservableObjectP", "openCamera"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "$isPopToRootActive"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "$userCancelled"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "Default_ObjectWillChangePublisher"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "ObjectWillChangePublisher"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "Published"]
+- ["22PopToRootNavLinkDouble0C7ManagerC", "State"]
+- ["22PopToRootNavLinkDouble0C7ManagerC", "SwingAgain"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", ""]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "_Default_ObjectWillChangePublisher"]
 - !private ["22PopToRootNavLinkDouble0C7ManagerC", "_isPopToRootActive"]
-- !private ["22PopToRootNavLinkDouble0C7ManagerC", "_userCancelled"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "cancel"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "deinit"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "init"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "isPopToRootActive"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", "objectWillChange"]
-- !private ["22PopToRootNavLinkDouble0C7ManagerC", "print"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "resetCancel"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "swingAgain"]
-- ["22PopToRootNavLinkDouble0C7ManagerC", "userCancelled"]
+- ["22PopToRootNavLinkDouble0C7ManagerC", "openCamera"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
+- "7SwiftUI15DynamicPropertyP"
 - "7Combine16ObservableObjectP"
-- "7Combine9PublishedV"
 - "22PopToRootNavLinkDouble0C7ManagerC"
+- "7SwiftUI5StateV"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -111,4 +96,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d25083a987f275a6e749eb55ea1ed0be"
+interface-hash: "d19839da37e7b254365a59f1c449d848"

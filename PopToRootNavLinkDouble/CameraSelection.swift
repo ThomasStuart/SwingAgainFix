@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct CameraSelection: View {
-    @Binding var selected:Bool
+    //@Binding var selected:Bool
+    @EnvironmentObject var rootModel:RootManager
+
     var body: some View {
         VStack{
             Text("Camera Selection")
-            Button(action: { selected = true } ) { Text("select") }
+           // Button(action: { selected = true } ) { Text("select") }
+            Button(action: { rootModel.openCamera() } ) { Text("select") }
         }
     }
 }
 
-struct CameraSelection_Previews: PreviewProvider {
-    static var previews: some View {
-        CameraSelection(selected: .constant(false) )
-    }
-}
+//struct CameraSelection_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CameraSelection(selected: .constant(false) )
+//    }
+//}

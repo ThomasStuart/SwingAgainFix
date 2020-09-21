@@ -1,23 +1,14 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "Camera"
-- "Camera_Previews"
 provides-nominal:
 - "22PopToRootNavLinkDouble6CameraV"
-- "22PopToRootNavLinkDouble15Camera_PreviewsV"
 provides-member:
 - ["22PopToRootNavLinkDouble6CameraV", ""]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "$isRootActive"
-- "Binding"
-- "Bool"
-- !private "BooleanLiteralType"
 - "Camera"
-- "Camera_Previews"
 - "NavigationLink"
-- "PreviewProvider"
 - "SomeOtherView"
 - !private "StringLiteralType"
 - "Text"
@@ -27,15 +18,7 @@ depends-member:
 - ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI7AnyViewV", "init"]
 - ["SK", ""]
-- !private ["7SwiftUI7BindingV", "constant"]
-- ["7SwiftUI7BindingV", "init"]
-- ["7SwiftUI7BindingV", "projectedValue"]
-- ["7SwiftUI7BindingV", "subscript"]
-- ["7SwiftUI7BindingV", "wrappedValue"]
-- ["22PopToRootNavLinkDouble6CameraV", "$isRootActive"]
-- ["22PopToRootNavLinkDouble6CameraV", "Binding"]
 - ["22PopToRootNavLinkDouble6CameraV", "Body"]
-- ["22PopToRootNavLinkDouble6CameraV", "Bool"]
 - ["22PopToRootNavLinkDouble6CameraV", "Default_Body"]
 - !private ["22PopToRootNavLinkDouble6CameraV", "NavigationLink"]
 - !private ["22PopToRootNavLinkDouble6CameraV", "SomeOtherView"]
@@ -44,28 +27,14 @@ depends-member:
 - ["22PopToRootNavLinkDouble6CameraV", "View"]
 - ["22PopToRootNavLinkDouble6CameraV", ""]
 - ["22PopToRootNavLinkDouble6CameraV", "_Default_Body"]
-- !private ["22PopToRootNavLinkDouble6CameraV", "_isRootActive"]
 - ["22PopToRootNavLinkDouble6CameraV", "_makeView"]
 - ["22PopToRootNavLinkDouble6CameraV", "_makeViewList"]
 - ["22PopToRootNavLinkDouble6CameraV", "_viewListCount"]
 - ["22PopToRootNavLinkDouble6CameraV", "body"]
 - ["22PopToRootNavLinkDouble6CameraV", "init"]
-- ["22PopToRootNavLinkDouble6CameraV", "isRootActive"]
-- !private ["22PopToRootNavLinkDouble15Camera_PreviewsV", "Camera"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "Default_Previews"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "Previews"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "View"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", ""]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "_Default_Previews"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "_platform"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "_previews"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "init"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "platform"]
-- ["22PopToRootNavLinkDouble15Camera_PreviewsV", "previews"]
 - ["Sl", ""]
 - ["SL", ""]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["7SwiftUI15DynamicPropertyP", "constant"]
 - ["SQ", ""]
 - !private ["SQ", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
@@ -78,15 +47,6 @@ depends-member:
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
 - !private ["7SwiftUI14NavigationLinkV", "init"]
-- !private ["7SwiftUI15PreviewProviderP", "Camera"]
-- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
-- ["7SwiftUI15PreviewProviderP", "Previews"]
-- ["7SwiftUI15PreviewProviderP", ""]
-- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
-- ["7SwiftUI15PreviewProviderP", "_platform"]
-- ["7SwiftUI15PreviewProviderP", "_previews"]
-- ["7SwiftUI15PreviewProviderP", "platform"]
-- ["7SwiftUI15PreviewProviderP", "previews"]
 - ["ST", ""]
 - !private ["22PopToRootNavLinkDouble13SomeOtherViewV", ""]
 - !private ["22PopToRootNavLinkDouble13SomeOtherViewV", "init"]
@@ -98,8 +58,6 @@ depends-member:
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - !private ["7SwiftUI6VStackV", "init"]
-- !private ["7SwiftUI4ViewP", "$isRootActive"]
-- ["7SwiftUI4ViewP", "Binding"]
 - ["7SwiftUI4ViewP", "Body"]
 - ["7SwiftUI4ViewP", "Default_Body"]
 - !private ["7SwiftUI4ViewP", "NavigationLink"]
@@ -113,7 +71,6 @@ depends-member:
 - ["7SwiftUI4ViewP", "_viewListCount"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "isRootActive"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
 - !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
@@ -124,26 +81,14 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
-- !private ["7SwiftUI16_PreviewProviderP", "Camera"]
-- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
-- ["7SwiftUI16_PreviewProviderP", "Previews"]
-- ["7SwiftUI16_PreviewProviderP", ""]
-- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
-- ["7SwiftUI16_PreviewProviderP", "_platform"]
-- ["7SwiftUI16_PreviewProviderP", "_previews"]
-- ["7SwiftUI16_PreviewProviderP", "platform"]
-- ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
 - "7SwiftUI10AnimatableP"
 - !private "7SwiftUI7AnyViewV"
 - "SK"
-- "7SwiftUI7BindingV"
 - "22PopToRootNavLinkDouble6CameraV"
-- "22PopToRootNavLinkDouble15Camera_PreviewsV"
 - "Sl"
 - "SL"
 - "s23CustomStringConvertibleP"
-- !private "7SwiftUI15DynamicPropertyP"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s32ExpressibleByStringInterpolationP"
@@ -153,7 +98,6 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "7SwiftUI14NavigationLinkV"
-- "7SwiftUI15PreviewProviderP"
 - "ST"
 - !private "22PopToRootNavLinkDouble13SomeOtherViewV"
 - !private "7SwiftUI5StateV"
@@ -168,7 +112,6 @@ depends-nominal:
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -211,4 +154,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "58de8907d904c2e64a226913401c149d"
+interface-hash: "e9a9181e1988fe1cde56e0cbd7df24fb"

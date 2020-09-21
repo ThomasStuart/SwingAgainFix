@@ -8,18 +8,16 @@
 import SwiftUI
 
 struct Camera: View {
-    @Binding var isRootActive:Bool
-
     var body: some View {
         VStack{
             Text("Camera Running")
-            NavigationLink(destination: SomeOtherView(isRootActive: $isRootActive)){ Text("Click to STOP") }
+            NavigationLink(destination: SomeOtherView()){ Text("Click to STOP") }
         }
     }
 }
 
-struct Camera_Previews: PreviewProvider {
-    static var previews: some View {
-        Camera(isRootActive: .constant(false))
-    }
-}
+//struct Camera_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Camera(isRootActive: .constant(false))
+//    }
+//}

@@ -26,12 +26,7 @@ depends-member:
 - ["7SwiftUI3AppP", "init"]
 - ["7SwiftUI3AppP", "main"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", ""]
-- !private ["22PopToRootNavLinkDouble11ContentViewV", "environmentObject"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "init"]
-- !private ["7SwiftUI17EnvironmentObjectV", "init"]
-- !private ["7SwiftUI17EnvironmentObjectV", "projectedValue"]
-- !private ["7SwiftUI17EnvironmentObjectV", "subscript"]
-- !private ["7SwiftUI17EnvironmentObjectV", "wrappedValue"]
 - !private ["7Combine16ObservableObjectP", "init"]
 - ["22PopToRootNavLinkDouble0abcdeF3AppV", "Body"]
 - !private ["22PopToRootNavLinkDouble0abcdeF3AppV", "ContentView"]
@@ -44,10 +39,6 @@ depends-member:
 - ["22PopToRootNavLinkDouble0abcdeF3AppV", "body"]
 - ["22PopToRootNavLinkDouble0abcdeF3AppV", "init"]
 - ["22PopToRootNavLinkDouble0abcdeF3AppV", "main"]
-- !private ["7Combine9PublishedV", "init"]
-- !private ["7Combine9PublishedV", "projectedValue"]
-- !private ["7Combine9PublishedV", "subscript"]
-- !private ["7Combine9PublishedV", "wrappedValue"]
 - !private ["22PopToRootNavLinkDouble0C7ManagerC", ""]
 - !private ["22PopToRootNavLinkDouble0C7ManagerC", "init"]
 - !private ["7SwiftUI5SceneP", "init"]
@@ -60,7 +51,10 @@ depends-member:
 - !private ["7SwiftUI5StateV", "projectedValue"]
 - !private ["7SwiftUI5StateV", "subscript"]
 - !private ["7SwiftUI5StateV", "wrappedValue"]
-- !private ["7SwiftUI4ViewP", "environmentObject"]
+- !private ["7SwiftUI11StateObjectV", "init"]
+- !private ["7SwiftUI11StateObjectV", "projectedValue"]
+- !private ["7SwiftUI11StateObjectV", "subscript"]
+- !private ["7SwiftUI11StateObjectV", "wrappedValue"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
@@ -72,14 +66,13 @@ depends-member:
 depends-nominal:
 - "7SwiftUI3AppP"
 - !private "22PopToRootNavLinkDouble11ContentViewV"
-- !private "7SwiftUI17EnvironmentObjectV"
 - !private "7Combine16ObservableObjectP"
 - "22PopToRootNavLinkDouble0abcdeF3AppV"
-- !private "7Combine9PublishedV"
 - !private "22PopToRootNavLinkDouble0C7ManagerC"
 - !private "7SwiftUI5SceneP"
 - !private "7SwiftUI12SceneBuilderV"
 - !private "7SwiftUI5StateV"
+- !private "7SwiftUI11StateObjectV"
 - !private "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
 - !private "7SwiftUI11WindowGroupV"

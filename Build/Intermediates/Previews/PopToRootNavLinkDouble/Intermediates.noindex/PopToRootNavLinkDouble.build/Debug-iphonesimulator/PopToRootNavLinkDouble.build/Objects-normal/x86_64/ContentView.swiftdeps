@@ -11,7 +11,6 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "!"
-- "$isCameraSelected"
 - "Bool"
 - "BooleanLiteralType"
 - "Camera"
@@ -19,7 +18,6 @@ depends-top-level:
 - "ContentView"
 - "ContentView_Previews"
 - "EmptyView"
-- "EnvironmentObject"
 - "FloatLiteralType"
 - "Group"
 - !private "IntegerLiteralType"
@@ -29,18 +27,16 @@ depends-top-level:
 - "RootManager"
 - "Spacer"
 - "State"
+- "StateObject"
 - !private "StringLiteralType"
 - "Text"
 - "VStack"
 - "View"
+- "rootModel"
 depends-member:
 - ["7SwiftUI10AnimatableP", ""]
 - !private ["7SwiftUI7AnyViewV", "init"]
 - ["SK", ""]
-- !private ["7SwiftUI7BindingV", "init"]
-- !private ["7SwiftUI7BindingV", "projectedValue"]
-- !private ["7SwiftUI7BindingV", "subscript"]
-- !private ["7SwiftUI7BindingV", "wrappedValue"]
 - !private ["22PopToRootNavLinkDouble6CameraV", ""]
 - !private ["22PopToRootNavLinkDouble6CameraV", "init"]
 - !private ["22PopToRootNavLinkDouble15CameraSelectionV", ""]
@@ -59,13 +55,13 @@ depends-member:
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "CameraSelection"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "Default_Body"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "EmptyView"]
-- ["22PopToRootNavLinkDouble11ContentViewV", "EnvironmentObject"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "Group"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "NavigationLink"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "NavigationView"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "RootManager"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "Spacer"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "State"]
+- ["22PopToRootNavLinkDouble11ContentViewV", "StateObject"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "Text"]
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "VStack"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "View"]
@@ -77,7 +73,6 @@ depends-member:
 - !private ["22PopToRootNavLinkDouble11ContentViewV", "_rootModel"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "_viewListCount"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "body"]
-- !private ["22PopToRootNavLinkDouble11ContentViewV", "environmentObject"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "init"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "isCameraSelected"]
 - ["22PopToRootNavLinkDouble11ContentViewV", "rootModel"]
@@ -98,10 +93,6 @@ depends-member:
 - ["7SwiftUI15DynamicPropertyP", "init"]
 - ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
 - !private ["7SwiftUI9EmptyViewV", "init"]
-- ["7SwiftUI17EnvironmentObjectV", "init"]
-- ["7SwiftUI17EnvironmentObjectV", "projectedValue"]
-- ["7SwiftUI17EnvironmentObjectV", "subscript"]
-- ["7SwiftUI17EnvironmentObjectV", "wrappedValue"]
 - ["SQ", ""]
 - !private ["SQ", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
@@ -118,7 +109,9 @@ depends-member:
 - ["So8NSCodingP", ""]
 - !private ["7SwiftUI14NavigationLinkV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7Combine16ObservableObjectP", "$isPopToRootActive"]
 - !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "isPopToRootActive"]
 - !private ["7SwiftUI15PreviewProviderP", "ContentView"]
 - ["7SwiftUI15PreviewProviderP", "Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
@@ -129,12 +122,10 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_previews"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
-- !private ["7Combine9PublishedV", "init"]
-- !private ["7Combine9PublishedV", "projectedValue"]
-- !private ["7Combine9PublishedV", "subscript"]
-- !private ["7Combine9PublishedV", "wrappedValue"]
+- !private ["22PopToRootNavLinkDouble0C7ManagerC", "$isPopToRootActive"]
 - ["22PopToRootNavLinkDouble0C7ManagerC", ""]
 - !private ["22PopToRootNavLinkDouble0C7ManagerC", "init"]
+- !private ["22PopToRootNavLinkDouble0C7ManagerC", "isPopToRootActive"]
 - !private ["7SwiftUI5SceneP", "init"]
 - !private ["7SwiftUI12SceneBuilderV", "buildEither"]
 - !private ["7SwiftUI12SceneBuilderV", "buildIf"]
@@ -146,6 +137,10 @@ depends-member:
 - ["7SwiftUI5StateV", "projectedValue"]
 - ["7SwiftUI5StateV", "subscript"]
 - ["7SwiftUI5StateV", "wrappedValue"]
+- ["7SwiftUI11StateObjectV", "init"]
+- ["7SwiftUI11StateObjectV", "projectedValue"]
+- ["7SwiftUI11StateObjectV", "subscript"]
+- ["7SwiftUI11StateObjectV", "wrappedValue"]
 - !private ["7SwiftUI4TextV", "init"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
@@ -155,18 +150,17 @@ depends-member:
 - !private ["7SwiftUI21ToolbarContentBuilderV", "buildIf"]
 - !private ["7SwiftUI21ToolbarContentBuilderV", "buildOptional"]
 - !private ["7SwiftUI6VStackV", "init"]
-- !private ["7SwiftUI4ViewP", "$isCameraSelected"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Camera"]
 - !private ["7SwiftUI4ViewP", "CameraSelection"]
 - ["7SwiftUI4ViewP", "Default_Body"]
 - !private ["7SwiftUI4ViewP", "EmptyView"]
-- ["7SwiftUI4ViewP", "EnvironmentObject"]
 - !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "NavigationLink"]
 - !private ["7SwiftUI4ViewP", "NavigationView"]
 - !private ["7SwiftUI4ViewP", "Spacer"]
 - ["7SwiftUI4ViewP", "State"]
+- ["7SwiftUI4ViewP", "StateObject"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - !private ["7SwiftUI4ViewP", "VStack"]
 - ["7SwiftUI4ViewP", ""]
@@ -175,10 +169,9 @@ depends-member:
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - ["7SwiftUI4ViewP", "_viewListCount"]
 - ["7SwiftUI4ViewP", "body"]
-- !private ["7SwiftUI4ViewP", "environmentObject"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
-- !private ["7SwiftUI4ViewP", "isCameraSelected"]
+- !private ["7SwiftUI4ViewP", "rootModel"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["7SwiftUI11ViewBuilderV", "buildEither"]
 - !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
@@ -208,7 +201,6 @@ depends-nominal:
 - "7SwiftUI10AnimatableP"
 - !private "7SwiftUI7AnyViewV"
 - "SK"
-- !private "7SwiftUI7BindingV"
 - !private "22PopToRootNavLinkDouble6CameraV"
 - !private "22PopToRootNavLinkDouble15CameraSelectionV"
 - "Sl"
@@ -221,7 +213,6 @@ depends-nominal:
 - !private "7SwiftUI26CustomizableToolbarContentP"
 - "7SwiftUI15DynamicPropertyP"
 - !private "7SwiftUI9EmptyViewV"
-- "7SwiftUI17EnvironmentObjectV"
 - "SQ"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
@@ -236,13 +227,13 @@ depends-nominal:
 - !private "7SwiftUI14NavigationViewV"
 - !private "7Combine16ObservableObjectP"
 - "7SwiftUI15PreviewProviderP"
-- !private "7Combine9PublishedV"
 - "22PopToRootNavLinkDouble0C7ManagerC"
 - !private "7SwiftUI5SceneP"
 - !private "7SwiftUI12SceneBuilderV"
 - "ST"
 - !private "7SwiftUI6SpacerV"
 - "7SwiftUI5StateV"
+- "7SwiftUI11StateObjectV"
 - !private "7SwiftUI4TextV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
@@ -301,4 +292,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "12776122b5191c7af12ab94c2636cc07"
+interface-hash: "976a97ea88a54fde162401ca34723eb9"

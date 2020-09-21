@@ -8,20 +8,21 @@
 import SwiftUI
 
 struct FinalView: View {
-    @Binding var isRootActive:Bool
+    //@Binding var isRootActive:Bool
+    @EnvironmentObject var rootModel: RootManager
     
     var body: some View {
         VStack{
             Text("Final View")
-            Button (action: { self.isRootActive = false } ){
+            Button (action: { self.rootModel.SwingAgain() } ){
                 Text("Swing Again")
             }
         }
     }
 }
 
-struct FinalView_Previews: PreviewProvider {
-    static var previews: some View {
-        FinalView(isRootActive: .constant(false))
-    }
-}
+//struct FinalView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        FinalView(isRootActive: .constant(false))
+//    }
+//}

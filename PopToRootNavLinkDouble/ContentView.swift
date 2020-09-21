@@ -8,23 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var rootModel: RootManager
+    @StateObject var rootModel: RootManager
     @State var isCameraSelected: Bool  = false
 
     var body: some View {
         NavigationView{
             Group{
-                if !self.isCameraSelected {
+                if !self.rootModel.isPopToRootActive {
                     VStack{
                         Text("Home: Tab Bar View")
                         Spacer().frame(height:300)
-                        CameraSelection(selected: self.$isCameraSelected)
+                        //CameraSelection(selected: rootModel.$isPopToRootActive )
+                        CameraSelection(rootModel: rootModel)
                         Spacer()
                     }
                 }
                 else{
-                    //Text("Camera View")
-                    NavigationLink(destination: Camera(isRootActive: $isCameraSelected), isActive: self.$isCameraSelected){ EmptyView() }
+                    Text("Camera View")
+                    NavigationLink(destination: Camera(), isActive: self.rootModel.$isPopToRootActive){ EmptyView() }
                 }
             }
         }
@@ -33,6 +34,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environmentObject(RootManager())
+    ContentView(rootModel: RootManager() )
     }
 }

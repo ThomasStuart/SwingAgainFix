@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SomeOtherView: View {
-    @Binding var isRootActive:Bool
+    //@Binding var isRootActive:Bool
     @State var count  = 0
     @State var donePickingFrames = false
 
@@ -21,13 +21,13 @@ struct SomeOtherView: View {
                 Text("Select Frame \(self.count + 1) of 3")
             }
             Spacer().frame(height:200)
-            NavigationLink(destination: FinalView(isRootActive: $isRootActive), isActive: $donePickingFrames){ EmptyView() }
+            NavigationLink(destination: FinalView(), isActive: $donePickingFrames){ EmptyView() }
         }
     }
 }
-
-struct SomeOtherView_Previews: PreviewProvider {
-    static var previews: some View {
-        SomeOtherView(isRootActive: .constant(false))
-    }
-}
+//
+//struct SomeOtherView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SomeOtherView(isRootActive: .constant(false))
+//    }
+//}
