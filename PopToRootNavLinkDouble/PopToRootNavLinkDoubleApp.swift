@@ -11,7 +11,7 @@ import SwiftUI
 struct PopToRootNavLinkDoubleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(rootModel: RootManager())
+            ContentView()
         }
     }
 }

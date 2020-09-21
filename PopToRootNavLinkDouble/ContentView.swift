@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var rootModel: RootManager
+    @StateObject var rootModel = RootManager()
     @State var isCameraSelected: Bool  = false
 
     var body: some View {
@@ -22,7 +22,7 @@ struct ContentView: View {
                         CameraSelection(rootModel: rootModel)
                         Spacer()
                     }
-                }
+            }
                 else{
                     Text("Camera View")
                     NavigationLink(destination: Camera(), isActive: self.rootModel.$isPopToRootActive){ EmptyView() }
@@ -34,6 +34,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-    ContentView(rootModel: RootManager() )
+    ContentView()
     }
 }
